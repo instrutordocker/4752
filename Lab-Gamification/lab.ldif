@@ -1,0 +1,73 @@
+dn: dc=dexter,dc=com,dc=br
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: Dexter Courier
+dc: Dexter
+
+dn: cn=admin,dc=dexter,dc=com,dc=br
+objectClass: organizationalRole
+cn: admin
+description: Directory Manager
+
+dn: ou=usuarios,dc=dexter,dc=com,dc=br
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,dc=dexter,dc=com,dc=br
+objectClass: organizationalUnit
+ou: grupos
+
+dn: uid=linus,ou=usuarios,dc=dexter,dc=com,dc=br
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Linus
+sn: Torvalds
+userPassword: {SSHA}aE4XrsPJNcl5c/Ztx41w0E3uRyhg0lSm
+loginShell: /bin/bash
+uidNumber: 1000
+gidNumber: 1000
+homeDirectory: /home/linus
+
+dn: cn=linus,ou=grupos,dc=dexter,dc=com,dc=br
+objectClass: posixGroup
+cn: Linus
+gidNumber: 1000
+memberUid: linus
+
+dn: uid=tux,ou=usuarios,dc=dexter,dc=com,dc=br
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Tux
+sn: Linux
+userPassword: {SSHA}aE4XrsPJNcl5c/Ztx41w0E3uRyhg0lSm
+loginShell: /bin/bash
+uidNumber: 1001
+gidNumber: 1001
+homeDirectory: /home/tux
+
+dn: cn=tux,ou=grupos,dc=dexter,dc=com,dc=br
+objectClass: posixGroup
+cn: Tux
+gidNumber: 1001
+memberUid: tux
+
+dn: uid=bill,ou=usuarios,dc=dexter,dc=com,dc=br
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Bill
+sn: Windows
+userPassword: {SSHA}aE4XrsPJNcl5c/Ztx41w0E3uRyhg0lSm
+loginShell: /bin/bash
+uidNumber: 1002
+gidNumber: 1002
+homeDirectory: /home/bill
+
+dn: cn=bill,ou=grupos,dc=dexter,dc=com,dc=br
+objectClass: posixGroup
+cn: Bill
+gidNumber: 1002
+memberUid: bill
