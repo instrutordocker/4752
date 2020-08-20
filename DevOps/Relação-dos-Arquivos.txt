@@ -1,0 +1,28 @@
+Distribuição: Ubuntu Server 16 (Xenial) com interface gráfica
+
+Quantidade de memória: 5120 MB
+
+Configuração de rede no VirtualBox:
+
+Adaptador 1: Rede interna intnet
+
+Arquivos:
+
+/etc/hosts -> usar o arquivo etc-hosts
+/etc/hostname
+/etc/network/interfaces
+/etc/sudoers.d/98_4linux
+/opt/files.yml
+/opt/ntp.yml
+/opt/base.yaml
+/etc/hosts -> usar o arquivo ansile-hosts
+
+Pastas:
+
+/opt/ldap
+
+Apache Directory Studio
+
+Baixar o arquivo ApacheDirectoryStudio-2.0.0.v20200411-M15-linux.gtk.x86_64.tar.gz na pasta /opt/ldap
+
+http://ftp.unicamp.br/pub/apache/directory/studio/2.0.0.v20200411-M15/ApacheDirectoryStudio-2.0.0.v20200411-M15-linux.gtk.x86_64.tar.gz

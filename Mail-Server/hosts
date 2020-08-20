@@ -1,0 +1,8 @@
+127.0.0.1	localhost.localdomain	localhost
+172.16.100.201	security.dexter.com.br	security
+172.16.100.202	storage.dexter.com.br	storage
+172.16.100.203	web01.dexter.com.br	web01
+172.16.100.204	web02.dexter.com.br	web02
+172.16.100.205	proxy.dexter.com.br	proxy
+172.16.100.206	mail.dexter.com.br	mail
+172.16.100.207	devops.dexter.com.br	devops

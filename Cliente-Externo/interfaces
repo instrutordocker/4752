@@ -1,0 +1,12 @@
+source /etc/network/interfaces.d/*
+
+auto lo
+iface lo inet loopback
+
+autog enp0s3
+iface enp0s3 inet dhcp
+
+auto enp0s8
+iface enp0s8 inet static
+      address 200.100.50.150
+      netmask 255.255.255.0

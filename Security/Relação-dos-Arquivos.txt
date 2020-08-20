@@ -1,0 +1,28 @@
+Distribuição: Debian 9
+
+Quantidade de memória: 1024 MB
+
+Configuração de rede no VirtualBox:
+
+Adaptador 1: NAT
+Adaptador 2: Rede interna intnet
+Adaptador 3: host-only (200.100.50.1)
+
+
+Arquivos:
+
+/etc/hosts
+/etc/hostname
+/etc/network/interfaces
+/etc/sudoers.d/98_4linux
+/etc/rc.local
+
+Pastas:
+
+/opt/apache
+/opt/iptables
+/opt/proxy
+/opt/sarg
+/opt/vpn
+
+
